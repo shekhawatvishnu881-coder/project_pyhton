@@ -31,7 +31,7 @@ def play():
 
 while True:
     play()
-    again = input("\nPlay again? (y/n): ").lower()
-    if again != "y":
+    again = input("\nPlay again? (yes /no ): ").lower()
+    if again != " yes ":
         print("Thanks for playing!")
         break
